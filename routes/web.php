@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MessageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('anasayfa');
 });
+
+Route::get('/İletişim', function () {
+    return view('iletisim');
+});
+Route::get('/Hakkımızda', function () {
+    return view('hakkimizda');
+});
+Route::post('/İletişim', [MessageController::class, 'store'])->name('messages.store');
+
+
