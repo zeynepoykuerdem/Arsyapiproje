@@ -22,29 +22,21 @@
                 <div class="row position-relative">
 
                     <div class="col-lg-7 about-img">
-                        <img src="{{ asset('img/about.jpg') }}" class="img-fluid" alt="About Image">
+                        <img src="{{ asset('img/about.jpg') }}" class="img-fluid rounded shadow-lg" alt="About Image"style="width: 80%; max-width: 600px; height: auto; display: block; margin: 0 auto;">
                     </div>
-
 
                     <div class="col-lg-7">
                         <div class="our-story">
-                            <h4>Est 2020</h4>
-                            <h3>Hikayemiz</h3>
-                            <p>Ars Yapı & Proje adı ile 2020 yılında hizmete başlayan firmamız, sanayi yapıları,
-                                alışveriş merkezi projeleri, otel ve konut projeleri dallarında çalışmalar
-                                yürütmektedir. </p>
-                            <ul>
-                                <li><i class="bi bi-check-circle"></i> <span>
-Güçlü teknik ekibimiz, müşteri taleplerini titizlikle değerlendirerek, yapılan ön çalışmalarla alternatif projeler sunar ve en ekonomik ve güvenli tasarımı gerçekleştirir.</span>
-                                </li>
-                                <li><i class="bi bi-check-circle"></i> <span>
-Deneyimli ve yenilikçi kadromuzla, güncel yönetmeliklere uygun şekilde Bina Bilgi Modellemesi (BIM) disiplinine uygun projeler üretiyor ve inşaat sektöründe fark yaratıyoruz.</span>
-                                </li>
-
+                            <h3 class="section-title">Hikayemiz</h3>
+                            <p class="lead-text">Ars Yapı & Proje adı ile 2020 yılında hizmete başlayan firmamız, sanayi yapıları, alışveriş merkezi projeleri, otel ve konut projeleri dallarında çalışmalar yürütmektedir.</p>
+                            <ul class="features-list">
+                                <li><i class="bi bi-check-circle"></i> <span>Güçlü teknik ekibimiz, müşteri taleplerini titizlikle değerlendirerek, yapılan ön çalışmalarla alternatif projeler sunar ve en ekonomik ve güvenli tasarımı gerçekleştirir.</span></li>
+                                <li><i class="bi bi-check-circle"></i> <span>Deneyimli ve yenilikçi kadromuzla, güncel yönetmeliklere uygun şekilde Bina Bilgi Modellemesi (BIM) disiplinine uygun projeler üretiyor ve inşaat sektöründe fark yaratıyoruz.</span></li>
                             </ul>
-                            <p>Sizlere en iyi şekilde hizmet vermeye devam edeceğiz.</p>
+                            <p class="closing-text">Sizlere en iyi şekilde hizmet vermeye devam edeceğiz.</p>
                         </div>
                     </div>
+
 
                 </div>
 

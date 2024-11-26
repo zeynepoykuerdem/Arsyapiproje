@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MessageController;
+use App\Http\Controllers\ProjectController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,4 +27,12 @@ Route::get('/Hakkımızda', function () {
 });
 Route::post('/İletişim', [MessageController::class, 'store'])->name('messages.store');
 
+Route::get('/Projelerimiz', function () {
+    return view('projelerimiz');
+});
 
+// Route to display all projects (Gallery)
+Route::get('/Projelerimiz', [ProjectController::class, 'index'])->name('projects.index');
+
+// Route to display a single project's details
+Route::get('/Projelerimiz/{id}', [ProjectController::class, 'show'])->name('projects.show');

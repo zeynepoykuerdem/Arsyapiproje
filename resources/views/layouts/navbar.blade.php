@@ -10,7 +10,7 @@ $menu = [
         'title' => 'Hakkımızda',
     ],
     [
-        'url' => request()->is('/') ? '#projects' : url(''),
+        'url' => 'Projelerimiz',
         'title' => 'Projelerimiz',
     ],
 

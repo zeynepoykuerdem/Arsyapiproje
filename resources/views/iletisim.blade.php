@@ -75,7 +75,7 @@
                                     <textarea name="customer_message" class="form-control" placeholder="Mesajınız" rows="4" required></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit"  >Gönder</button>
+                                    <button type="submit"  style="var(--color-primary)" >Gönder</button>
                                 </div>
                             </div>
                         </form>
