@@ -10,7 +10,7 @@
                         <div class="project-info p-3">
                             <h3 class="project-title">{{ $project->title }}</h3>
                             <p class="project-description">{{ $project->description }}</p>
-                            <a href="{{ route('projects.index') }}" class="btn btn-secondary">Geri</a>
+                            <a href="{{ route('projects.index') }}" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" style="color: var(--color-primary)">Geri</a>
                         </div>
                     </div>
                 </div>

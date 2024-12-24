@@ -39,6 +39,9 @@ body {
     overflow-x: hidden;
 }
 
+button{
+    color: var(--color-secondary);
+}
 
 a {
     color: #FFFFFF;
