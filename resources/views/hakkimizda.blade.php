@@ -8,7 +8,7 @@
 
                 <h2>Hakkımızda</h2>
                 <ol>
-                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="{{url("/")}}">Anasayfa</a></li>
                     <li>Hakkımızda</li>
                 </ol>
 
@@ -22,7 +22,7 @@
                 <div class="row position-relative">
 
                     <div class="col-lg-7 about-img">
-                        <img src="{{ asset('img/about.jpg') }}" class="img-fluid rounded shadow-lg" alt="About Image"style="width: 80%; max-width: 600px; height: auto; display: block; margin: 0 auto;">
+                        <img src="{{ asset('img/arkaplan.jpg') }}" class="img-fluid rounded shadow-lg" alt="About Image" style="width: 80%; max-width: 600px; height: auto; display: block; margin: 0 auto;">
                     </div>
 
                     <div class="col-lg-7">
