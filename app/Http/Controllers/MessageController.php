@@ -43,7 +43,7 @@ class MessageController extends Controller
 
             $message = Message::create($validated);
 
-            $adminEmail = 'zeynepoykuerdem@outlook.com';
+            $adminEmail = 'umutkaanarslan@gmail.com';
 
 
 
